@@ -1,0 +1,41 @@
+.section_container {
+    background-color: var(--gray-600);
+    height: calc(100vh - 200px);
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.input_container {
+    display: flex;
+    gap: 8px;
+    margin-top: -30px;
+}
+
+.input {
+    width: 648px;
+    height: 54px;
+
+    color: var(--gray-300);
+    background: var(--gray-500);
+    border: 1px solid var(--gray-700);
+    padding: 0px 16px;
+    border-radius: 8px;
+}
+
+.button {
+    width: 90px;
+    height: 52px;
+
+    background: var(--blue-dark);
+    color: var(--gray-100);
+    border-radius: 8px;
+    border: none;
+
+    cursor: pointer;
+}
+
+.button:hover {
+    filter: brightness(1.50);
+}
